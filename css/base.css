@@ -1,0 +1,46 @@
+#page{
+	margin:auto;
+	width:800px;
+	border:1px solid #000;
+	
+}
+#header{
+	background-color:#CCF;
+	padding:5px;
+}
+#header h1{
+	margin:0px;
+}
+#menu-top ul{
+	display:block;
+	clear:both;
+	height:40px;
+}
+#menu-top ul li a{
+	float:left;
+	min-width:120px;
+	text-align:center;
+	padding:5px;
+	border:1px solid #fff;
+	background-color:#88F;
+}
+#menu-top ul li{
+	list-style:none;
+}
+#menu-content{
+	float:left;
+	width:200px;
+}
+#menu-content ul li{
+	
+}
+#content{
+	margin-left:200px;
+}
+#footer{
+	border-top:1px solid #000;
+	text-align:center;
+	padding:10px;
+	background-color:#CCC;
+	margin-top:10px;
+}

@@ -1,0 +1,6 @@
+Options +FollowSymLinks, +SymLinksIfOwnerMatch
+#Options -Indexes
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule    ^pet-care/?$    /index.php    [L]    # Handle requests for "pet-care"
+</IfModule>
