@@ -18,7 +18,7 @@ Think in a table with this strcture:
 	  PRIMARY KEY (`idlocal`)
 	)
 
-The Model Class will be did with the information bellow
+The Model Class is generated with the code below
 
 	require_once("crudUtils/CrudInterface.class.php");
 
